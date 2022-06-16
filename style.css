@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header a,
+.hero p,
+.hero_button {
+    font-size: 18px;
+    font-weight: 200;
+    color: #E5E7EB;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.header a {
+    padding-left: 32px;
+    text-decoration: none;
+}
+
+.header {
+    height: 72px;
+    margin: 0;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_img {
+    width: 600px;
+    height: auto;
+}
+
+.hero_text {
+    max-width: 600px;
+    
+}
+
+.hero_button,
+.calltoaction {
+    background-color: #3882F6;
+}
+
+.hero_button{
+    padding: 8px 32px;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: 600;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    padding: 100px 150px;
+    
+}
